@@ -38,6 +38,10 @@ silverJob.start();
 
 
 
+
+
+
+
 app.get('/GetData/:instruments/:timeStamp' , function(req,res){
     console.log(req.params)
        var file = req.params.instruments.substring(0, 7);
